@@ -23,8 +23,13 @@
 
         <!-- Content -->
         <section id="content">
-          <?php include("registration-info.php"); ?>
-          <?php if ($displayForm) include("registration-form.php"); ?>
+          <?php
+            // include("registration-info.php");
+          ?>
+          <?php
+              // if ($displayForm)
+                include("registration-form.php");
+          ?>
         </section>
 
       </div>

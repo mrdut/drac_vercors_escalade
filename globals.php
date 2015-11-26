@@ -4,8 +4,8 @@ setlocale(LC_TIME, "fr_FR");
 $GLOBALS['root-dir'] = 'http://www.openblocgrenoble.fr';
 $GLOBALS['registration-fee'] = 12.0;
 $GLOBALS['available-places'] = 100;
-$GLOBALS['remaining-places-poussin-benjamin'] = 0;
-$GLOBALS['remaining-places-minime-cadet'] = 0;
+$GLOBALS['remaining-places-poussin-benjamin'] = 10;
+$GLOBALS['remaining-places-minime-cadet'] = 10;
 
 $hour = 8; $minute = 30; $second = 0;
 $day = 7;  $month = 6;   $year = 2015;
@@ -18,7 +18,7 @@ $GLOBALS['registration-open-date'] = mktime($hour, $minute, $second, $month, $da
 $GLOBALS['registration-open-date-str'] = strftime('%A %e %B %G', $GLOBALS['registration-open-date']);
 
 $hour = 0; $minute = 0; $second = 0;
-$day = 31; $month = 5;  $year = 2015;
+$day = 31; $month = 5;  $year = 2017;
 $GLOBALS['registration-close-date'] = mktime($hour, $minute, $second, $month, $day, $year);
 $GLOBALS['registration-close-date-str'] = strftime('%A %e %B %G', $GLOBALS['registration-close-date']);
 

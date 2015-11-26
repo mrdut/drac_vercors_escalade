@@ -93,6 +93,7 @@
         <li><a href="index.php">Accueil</a></li>
         <li><a href="program.php">Déroulement</a></li>
         <li><a href="registration.php">Inscription</a></li>
+        <li><a href="adhesion.php">Adhesion</a></li>
         <li><a href="benevoles.php">Bénévoles</a></li>
         <li><a href="media.php">Media</a></li>
         <li><a href="results.php">Résultats</a></li>
